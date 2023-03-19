@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body {
+  font-family: "Muli";
+  font-style: normal;
+  background-color: #e7e1e1;
+}
+.navContainer {
+  margin-top: 70px;
+}
+.nav-link {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #1f1534 !important;
+  opacity: 0.5;
+}
+.slider h2 {
+  width: 427px;
+  height: 112px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  /* or 117% */
+
+  color: #000000;
+}
+.slider p {
+  width: 445px;
+  height: 96px;
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 32px;
+}
+.slider button {
+  width: 200px;
+  height: 56px;
+  background: #458ff6;
+  border-radius: 55px;
+  border: 2px solid #458ff6;
+  font-weight: 700;
+  font-size: 18px;
+
+  color: #ffffff;
+}
+.section1 {
+  margin-top: 192px;
+}
+.section1 h1 {
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 56px;
+
+  color: #000000;
+}
+.section1 p {
+  justify-content: center;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  /* or 167% */
+
+  text-align: center;
+
+  color: #7d7987;
+}
+.card1 {
+  width: 350px !important;
+  height: 354px;
+  background: #ffffff;
+  /* drop shadow */
+
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+  border-radius: 20px !important;
+  padding: 54px 221px 210px 37px;
+}
+.card-img-top {
+  width: 91.98px !important;
+  height: 90px !important;
+}
+.card-title {
+  width: 200px;
+  height: 56px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 56px;
+  /* identical to box height, or 233% */
+}
+.card-text {
+  width: 266px;
+  height: 84px;
+  font-weight: 300 !important;
+  font-size: 16px !important;
+  line-height: 28px !important;
+  text-align: left !important;
+}
+.b1 {
+  width: 200px;
+  height: 56px;
+  border: 1.4px solid #458ff6;
+  border-radius: 55px;
+  font-weight: 700;
+  font-size: 18px;
+  /* identical to box height, or 333% */
+  background: #ffffff;
+  color: #458ff6;
+}
+.formargin {
+  padding-top: 150px;
+}
+.healthcare h1 {
+  width: 481px;
+  height: 112px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 56px;
+  /* or 156% */
+
+  color: #000000;
+}
+.healthcare p {
+  width: 450px;
+  height: 120px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  /* or 167% */
+
+  color: #7d7987;
+}
+.buttonDiv {
+  margin-top: 45px;
+}
+
+.healthcareImg {
+  width: 650px;
+  height: 477px;
+}
+.healthcare {
+  margin-left: 200px;
+}
+.background {
+  width: 1220px;
+  height: 425px;
+  left: 242px;
+  top: 3724px;
+
+  background: linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
+  border-radius: 24px;
+}
+.profileImg {
+  width: 133px;
+  height: 133px;
+  border-radius: 60%;
+  border: 5px solid #ffffff;
+}
+.background h1 {
+  margin-top: 46px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  /* identical to box height, or 133% */
+
+  color: #ffffff;
+}
+.formargin2 {
+  margin: 50px 0px 50px 0;
+}
+.formargin2 p {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 30px;
+  /* or 158% */
+
+  color: rgba(255, 255, 255, 0.9);
+}
+.Checkout {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 56px;
+}
+.card2 {
+  width: 350px !important;
+  height: 512px !important;
+}
+.card3 {
+  width: 349px !important;
+  height: 246px !important;
+}
+.cardTiTle {
+  width: 251px;
+  height: 64px;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 32px;
+  /* or 152% */
+}
+.cardText {
+  width: 266px;
+  height: 84px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
+
+  color: #7d7987;
+}
+.Readmore {
+  width: 266px;
+  height: 28px;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 28px;
+  /* identical to box height, or 165% */
+
+  color: #4089ed;
+}
+.blueDiv {
+  /* width: 1600px; */
+  height: 432px;
+  left: 0px;
+  top: 5438px;
+
+  background: linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
+}
+.mar {
+  margin-top: 45px;
+  font-size: 18px;
+}
