@@ -6,7 +6,8 @@
 .body {
   font-family: "Muli";
   font-style: normal;
-  background-color: #e7e1e1;
+  background: linear-gradient(175.68deg, #f3f7ff -10.48%, #deeefe 92.66%);
+  transform: rotate(-159.84deg);
 }
 .navContainer {
   margin-top: 70px;
@@ -48,10 +49,14 @@
 }
 .section1 {
   margin-top: 192px;
+  background-image: url(assets/Vectorbackgraound.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-image: url(assets/section1.png);
+  background-position: right;
+  background-repeat: no-repeat;
 }
 .section1 h1 {
-  display: flex;
-  justify-content: center;
   font-weight: 700;
   font-size: 36px;
   line-height: 56px;
@@ -68,6 +73,15 @@
   text-align: center;
 
   color: #7d7987;
+}
+.consultToday {
+  margin-top: 45px;
+}
+.lineDiv {
+  width: 56px;
+  height: 2px;
+  background: #000000;
+  border-radius: 5px;
 }
 .card1 {
   width: 350px !important;
@@ -147,12 +161,10 @@
 .background {
   width: 1220px;
   height: 425px;
-  left: 242px;
-  top: 3724px;
-
   background: linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
   border-radius: 24px;
 }
+
 .profileImg {
   width: 133px;
   height: 133px;
@@ -211,24 +223,108 @@
   color: #7d7987;
 }
 .Readmore {
-  width: 266px;
-  height: 28px;
+  width: 266px !important;
+  height: 28px !important;
   font-weight: 600;
   font-size: 17px;
   line-height: 28px;
   /* identical to box height, or 165% */
 
-  color: #4089ed;
+  color: #4089ed !important;
+  text-decoration: none;
 }
-.blueDiv {
-  /* width: 1600px; */
-  height: 432px;
-  left: 0px;
-  top: 5438px;
 
-  background: linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
-}
 .mar {
   margin-top: 45px;
   font-size: 18px;
 }
+.profileImgDiv h3 {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 48px;
+  /* identical to box height, or 218% */
+
+  color: #ffffff;
+}
+.profileImgDiv p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 48px;
+  /* identical to box height, or 267% */
+
+  color: rgba(255, 255, 255, 0.85);
+}
+.background p {
+  width: 420px;
+  height: 120px;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 30px;
+  /* or 158% */
+
+  color: rgba(255, 255, 255, 0.9);
+}
+.blueDiv {
+  height: 400px;
+  background: linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
+}
+
+.Tback {
+  width: 41px !important;
+  height: 41px !important;
+  border-radius: 60%;
+  background-color: #ffffff;
+}
+.TLogo {
+  width: 17px;
+  height: 32px;
+  font-weight: 700;
+  font-size: 26px;
+
+  color: #5b9bf3;
+}
+.trafalgarLogo {
+  width: 107px !important;
+  height: 30px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+
+  color: #ffffff;
+}
+.paraghrap {
+  width: 391px !important;
+  height: 84px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+
+  color: #ffffff;
+}
+.list ul {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 60px;
+  list-style: none;
+  /* identical to box height, or 300% */
+
+  color: #ffffff;
+}
+.list li {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 38px;
+  /* or 211% */
+
+  color: #ffffff;
+}
+
