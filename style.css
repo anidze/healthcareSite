@@ -85,7 +85,7 @@
 }
 .card1 {
   width: 350px !important;
-  height: 354px;
+  height: 354px!important;
   background: #ffffff;
   /* drop shadow */
 
@@ -183,14 +183,14 @@
 .formargin2 {
   margin: 50px 0px 50px 0;
 }
-.formargin2 p {
+/* .formargin2 p {
   font-weight: 400;
   font-size: 19px;
   line-height: 30px;
-  /* or 158% */
+ 
 
   color: rgba(255, 255, 255, 0.9);
-}
+} */
 .Checkout {
   font-weight: 700;
   font-size: 36px;
@@ -328,3 +328,24 @@
   color: #ffffff;
 }
 
+/* slider restyle */
+.carousel-indicators{
+  bottom: 45px!important;
+}
+.carousel-indicators button {
+width: 10px!important;
+height: 5px!important;
+background: #5b9bf3 !important;
+opacity: 0.3!important;
+border-radius: 60%;
+
+}
+.carousel-indicators button .active {
+color: #5b9bf3!important;
+}
+.carousel-control-prev{
+  transform: translate(245%, 38%);
+}
+.carousel-control-next{
+  transform: translate(-245%, 38%);
+}
