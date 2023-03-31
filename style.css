@@ -7,25 +7,41 @@
   font-family: "Muli";
   font-style: normal;
   background: linear-gradient(175.68deg, #f3f7ff -10.48%, #deeefe 92.66%);
-  transform: rotate(-159.84deg);
+  overflow: hidden;
 }
-.navContainer {
-  margin-top: 70px;
+.reusable_navigation {
+  position: absolute;
+  width: 100%;
+  z-index: 999;
+  left: 50%;
+  transform: translateX(-50%);
 }
-.nav-link {
-  font-weight: 400;
+
+.reusable_navigation .nav-item  {
+  margin:  0 10px;
+}
+
+.reusable_navigation .nav-item a {
+  display: block;
+  padding: 42px 27px 17px 27px;
   font-size: 18px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.nav-link {
+  font-weight: 400!important;
+  font-size: 1.125em!important;
   line-height: 23px;
   color: #1f1534 !important;
-  opacity: 0.5;
+}
+.nav-link:hover{
+  color: #458ff6!important;
 }
 .slider h2 {
-  width: 427px;
-  height: 112px;
   font-weight: 700;
-  font-size: 48px;
+  font-size: 3em;
   line-height: 56px;
-  /* or 117% */
 
   color: #000000;
 }
@@ -33,7 +49,7 @@
   width: 445px;
   height: 96px;
   font-weight: 300;
-  font-size: 21px;
+  font-size: 1.313em;
   line-height: 32px;
 }
 .slider button {
@@ -68,10 +84,7 @@
   font-weight: 300;
   font-size: 18px;
   line-height: 30px;
-  /* or 167% */
-
   text-align: center;
-
   color: #7d7987;
 }
 .consultToday {
@@ -85,10 +98,8 @@
 }
 .card1 {
   width: 350px !important;
-  height: 354px!important;
+  height: 354px !important;
   background: #ffffff;
-  /* drop shadow */
-
   box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
   border-radius: 20px !important;
   padding: 54px 221px 210px 37px;
@@ -103,7 +114,6 @@
   font-weight: 700;
   font-size: 24px;
   line-height: 56px;
-  /* identical to box height, or 233% */
 }
 .card-text {
   width: 266px;
@@ -120,7 +130,6 @@
   border-radius: 55px;
   font-weight: 700;
   font-size: 18px;
-  /* identical to box height, or 333% */
   background: #ffffff;
   color: #458ff6;
 }
@@ -133,8 +142,6 @@
   font-weight: 700;
   font-size: 36px;
   line-height: 56px;
-  /* or 156% */
-
   color: #000000;
 }
 .healthcare p {
@@ -143,8 +150,6 @@
   font-weight: 300;
   font-size: 18px;
   line-height: 30px;
-  /* or 167% */
-
   color: #7d7987;
 }
 .buttonDiv {
@@ -329,23 +334,22 @@
 }
 
 /* slider restyle */
-.carousel-indicators{
-  bottom: 45px!important;
+.carousel-indicators {
+  bottom: 45px !important;
 }
 .carousel-indicators button {
-width: 10px!important;
-height: 5px!important;
-background: #5b9bf3 !important;
-opacity: 0.3!important;
-border-radius: 60%;
-
+  width: 10px !important;
+  height: 5px !important;
+  background: #5b9bf3 !important;
+  opacity: 0.3 !important;
+  border-radius: 60%;
 }
 .carousel-indicators button .active {
-color: #5b9bf3!important;
+  color: #5b9bf3 !important;
 }
-.carousel-control-prev{
+.carousel-control-prev {
   transform: translate(245%, 38%);
 }
-.carousel-control-next{
+.carousel-control-next {
   transform: translate(-245%, 38%);
 }
